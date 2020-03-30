@@ -44,6 +44,12 @@
                  description=""
                  name="name"
                  ordinal="2"></FieldDefinition>
+				 <FieldDefinition
+                 aspect.isPrimaryKey="false"
+                 baseType="STRING"
+                 description=""
+                 name="address"
+                 ordinal="2"></FieldDefinition>
             </FieldDefinitions>
         </DataShape>
     </DataShapes>
