@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b222"
+ majorVersion="8"
+ minorVersion="5"
+ modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
+ revision="4"
+ schemaVersion="1053"
+ universal="password">
+    <DataShapes>
+        <DataShape
+         aspect.isSystemObject="true"
+         baseDataShape=""
+         description="Number compare alert"
+         documentationContent=""
+         homeMashup=""
+         lastModifiedDate="2020-03-03T01:03:56.141+05:30"
+         name="NumberCompareAlert"
+         projectName=""
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <FieldDefinitions>
+                <FieldDefinition
+                 aspect.friendlyName="Limit"
+                 aspect.isRequired="true"
+                 baseType="NUMBER"
+                 description="Limit to compare"
+                 name="limit"
+                 ordinal="0"></FieldDefinition>
+                <FieldDefinition
+                 aspect.defaultValue="true"
+                 aspect.friendlyName="Include Limit?"
+                 aspect.isRequired="false"
+                 baseType="BOOLEAN"
+                 description="Limit includes value"
+                 name="limitInclusive"
+                 ordinal="1"></FieldDefinition>
+            </FieldDefinitions>
+        </DataShape>
+    </DataShapes>
+</Entities>

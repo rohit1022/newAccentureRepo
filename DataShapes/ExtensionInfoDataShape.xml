@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b222"
+ majorVersion="8"
+ minorVersion="5"
+ modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
+ revision="4"
+ schemaVersion="1053"
+ universal="password">
+    <DataShapes>
+        <DataShape
+         aspect.isSystemObject="true"
+         baseDataShape=""
+         description="Extension info data shape"
+         documentationContent=""
+         homeMashup=""
+         lastModifiedDate="2020-03-03T01:03:56.394+05:30"
+         name="ExtensionInfoDataShape"
+         projectName=""
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <FieldDefinitions>
+                <FieldDefinition
+                 baseType="INTEGER"
+                 description="Extension major version number"
+                 name="extensionMajor"
+                 ordinal="2"></FieldDefinition>
+                <FieldDefinition
+                 baseType="INTEGER"
+                 description="Extension minor version number"
+                 name="extensionMinor"
+                 ordinal="3"></FieldDefinition>
+                <FieldDefinition
+                 baseType="STRING"
+                 description="Extension name"
+                 name="extensionName"
+                 ordinal="1"></FieldDefinition>
+                <FieldDefinition
+                 baseType="INTEGER"
+                 description="Extension patch version number"
+                 name="extensionPatch"
+                 ordinal="4"></FieldDefinition>
+            </FieldDefinitions>
+        </DataShape>
+    </DataShapes>
+</Entities>

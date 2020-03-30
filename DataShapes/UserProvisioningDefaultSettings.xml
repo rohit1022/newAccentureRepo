@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b222"
+ majorVersion="8"
+ minorVersion="5"
+ modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
+ revision="4"
+ schemaVersion="1053"
+ universal="password">
+    <DataShapes>
+        <DataShape
+         aspect.isSystemObject="true"
+         baseDataShape=""
+         description="User Provisioning Default Settings"
+         documentationContent=""
+         homeMashup=""
+         lastModifiedDate="2020-03-03T01:03:56.041+05:30"
+         name="UserProvisioningDefaultSettings"
+         projectName=""
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <FieldDefinitions>
+                <FieldDefinition
+                 baseType="STRING"
+                 description="User Provisioning Default Description"
+                 name="userDefaultDescription"
+                 ordinal="0"></FieldDefinition>
+                <FieldDefinition
+                 baseType="MASHUPNAME"
+                 description="User Provisioning Default Home Mashup"
+                 name="userDefaultHomeMashupName"
+                 ordinal="0"></FieldDefinition>
+                <FieldDefinition
+                 baseType="MASHUPNAME"
+                 description="User Provisioning Default Mobile Mashup"
+                 name="userDefaultMobileMashupName"
+                 ordinal="0"></FieldDefinition>
+                <FieldDefinition
+                 baseType="PROJECTNAME"
+                 description="User Provisioning Default Project Name"
+                 name="userDefaultProjectName"
+                 ordinal="0"></FieldDefinition>
+                <FieldDefinition
+                 baseType="TAGS"
+                 description="User Provisioning Default Tags"
+                 name="userDefaultTags"
+                 ordinal="0"></FieldDefinition>
+            </FieldDefinitions>
+        </DataShape>
+    </DataShapes>
+</Entities>
